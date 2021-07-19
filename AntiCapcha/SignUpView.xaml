@@ -1,0 +1,21 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AntiCapcha"
+             xmlns:ViewModels="clr-namespace:AntiCapcha.ViewModels" x:Class="AntiCapcha.SignUpView"
+             mc:Ignorable="d" 
+             d:DesignHeight="545" d:DesignWidth="830">
+    <UserControl.DataContext>
+        <ViewModels:SignUpViewModel/>
+    </UserControl.DataContext>
+    <Grid HorizontalAlignment="Left" VerticalAlignment="Center">
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="92,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="252" Text="{Binding Login}"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="92,183,0,0" VerticalAlignment="Top" Width="252" x:Name="UserPassword"/>
+        <Label Content="Login" HorizontalAlignment="Left" Margin="92,62,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="92,146,0,0" VerticalAlignment="Top"/>
+        <Button Content="SIGNUP" HorizontalAlignment="Left" Margin="92,239,0,0" VerticalAlignment="Top" Width="252" Background="#FF1FB834" Command="{Binding AddInTable}" CommandParameter="{Binding ElementName=UserPassword}" />
+
+    </Grid>
+</UserControl>
