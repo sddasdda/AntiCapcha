@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Data.Entity;
 
-namespace AntiCapcha.Models
+namespace AntiCaptcha.Models
 {
     public class SignUpModel : INotifyPropertyChanged
     {

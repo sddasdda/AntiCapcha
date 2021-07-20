@@ -1,6 +1,6 @@
 using System.Windows;
 
-namespace AntiCapcha
+namespace AntiCaptcha
 {
     public partial class Window1 : Window
     {

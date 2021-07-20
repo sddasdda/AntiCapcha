@@ -13,9 +13,9 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 
 
-namespace AntiCapcha.Models
+namespace AntiCaptcha.Models
 {
-    public class AntiCapchaModel : INotifyPropertyChanged
+    public class AntiCaptchaModel : INotifyPropertyChanged
     {
         private Bitmap uploadedImage;
         public Bitmap UploadedImage

@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:AntiCapcha"
-             xmlns:ViewModels="clr-namespace:AntiCapcha.ViewModels" x:Class="AntiCapcha.SignUpView"
+             xmlns:local="clr-namespace:AntiCaptcha"
+             xmlns:ViewModels="clr-namespace:AntiCaptcha.ViewModels" x:Class="AntiCaptcha.SignUpView"
              mc:Ignorable="d" 
              d:DesignHeight="545" d:DesignWidth="830">
     <UserControl.DataContext>

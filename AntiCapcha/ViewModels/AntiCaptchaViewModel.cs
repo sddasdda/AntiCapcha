@@ -1,4 +1,4 @@
-﻿using AntiCapcha.Models;
+﻿using AntiCaptcha.Models;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
@@ -9,11 +9,11 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AntiCapcha.ViewModels
+namespace AntiCaptcha.ViewModels
 {
-    public class AntiCapchaViewModel : INotifyPropertyChanged
+    public class AntiCaptchaViewModel : INotifyPropertyChanged
     {
-        private AntiCapchaModel AntiCapcha;
+        private AntiCaptchaModel AntiCaptcha;
 
         private string result;
         public string Result
@@ -47,9 +47,9 @@ namespace AntiCapcha.ViewModels
                   {
                       var dlg = new DefaultDialogService();
                       dlg.OpenFileDialog();
-                      AntiCapcha.UploadedImage = new Bitmap(dlg.FilePath);
-                      AntiCapcha.ImageSource = dlg.FilePath;
-                      UploadedImageSource = AntiCapcha.ImageSource;
+                      AntiCaptcha.UploadedImage = new Bitmap(dlg.FilePath);
+                      AntiCaptcha.ImageSource = dlg.FilePath;
+                      UploadedImageSource = AntiCaptcha.ImageSource;
                   }));
             }
         }
@@ -69,20 +69,20 @@ namespace AntiCapcha.ViewModels
 
         private async void Solve()
         {
-            await AntiCapcha.SolveCaptcha();
-            Result = AntiCapcha.Result;
+            await AntiCaptcha.SolveCaptcha();
+            Result = AntiCaptcha.Result;
         }
 
         private void uploadImage()
         {
             var dlg = new DefaultDialogService();
             dlg.OpenFileDialog();
-            AntiCapcha.UploadedImage = new Bitmap(dlg.FilePath);
+            AntiCaptcha.UploadedImage = new Bitmap(dlg.FilePath);
         }
 
-        public AntiCapchaViewModel()
+        public AntiCaptchaViewModel()
         {
-            AntiCapcha = new AntiCapchaModel();
+            AntiCaptcha = new AntiCaptchaModel();
             
         }
 

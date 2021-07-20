@@ -12,9 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using AntiCapcha.Models;
+using AntiCaptcha.Models;
 
-namespace AntiCapcha
+namespace AntiCaptcha
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
@@ -35,7 +35,7 @@ namespace AntiCapcha
             {
                 case 0:
                     GridPrincipal.Children.Clear();
-                    GridPrincipal.Children.Add(new AntiCapchaView());
+                    GridPrincipal.Children.Add(new AntiCaptchaView());
                     break;
                 case 1:
                     GridPrincipal.Children.Clear();

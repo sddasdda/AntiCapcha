@@ -104,7 +104,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Models\AntiCapchaModel.cs" />
+    <Compile Include="Models\AntiCaptchaModel.cs" />
     <Compile Include="Models\AnticaptchaException.cs" />
     <Compile Include="Models\CaptchaSolution.cs" />
     <Compile Include="Models\CaptchaSolutionRequest.cs" />
@@ -122,12 +122,12 @@
     <Compile Include="SignUpView.xaml.cs">
       <DependentUpon>SignUpView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\AntiCapchaViewModel.cs" />
+    <Compile Include="ViewModels\AntiCaptchaViewModel.cs" />
     <Compile Include="ViewModels\SignUpViewModel.cs" />
     <Compile Include="Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
-    <Page Include="AntiCapchaView.xaml">
+    <Page Include="AntiCaptchaView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -139,8 +139,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="AntiCapchaView.xaml.cs">
-      <DependentUpon>AntiCapchaView.xaml</DependentUpon>
+    <Compile Include="AntiCaptchaView.xaml.cs">
+      <DependentUpon>AntiCaptchaView.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>

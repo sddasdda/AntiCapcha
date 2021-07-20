@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AntiCapcha
+namespace AntiCaptcha
 {
     /// <summary>
     /// Логика взаимодействия для SignUpView.xaml
@@ -24,7 +24,7 @@ namespace AntiCapcha
         public SignUpView()
         {
             InitializeComponent();
-            DataContext = new AntiCapcha.ViewModels.SignUpViewModel();
+            DataContext = new AntiCaptcha.ViewModels.SignUpViewModel();
         }
 
         public System.Security.SecureString Password

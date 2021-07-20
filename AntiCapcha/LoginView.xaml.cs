@@ -1,4 +1,4 @@
-﻿using AntiCapcha.Models;
+﻿using AntiCaptcha.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AntiCapcha
+namespace AntiCaptcha
 {
     /// <summary>
     /// Логика взаимодействия для LoginView.xaml

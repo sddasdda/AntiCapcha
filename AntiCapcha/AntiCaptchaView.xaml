@@ -3,14 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:AntiCapcha"
-             xmlns:Models="clr-namespace:AntiCapcha.Models" xmlns:ViewModels="clr-namespace:AntiCapcha.ViewModels" x:Class="AntiCapcha.AntiCapchaView"
+             xmlns:local="clr-namespace:AntiCaptcha"
+             xmlns:Models="clr-namespace:AntiCaptcha.Models" xmlns:ViewModels="clr-namespace:AntiCaptcha.ViewModels" x:Class="AntiCaptcha.AntiCaptchaView"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
 
 
     <UserControl.DataContext>
-        <ViewModels:AntiCapchaViewModel/>
+        <ViewModels:AntiCaptchaViewModel/>
     </UserControl.DataContext>
 
 

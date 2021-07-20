@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 
-namespace AntiCapcha.Models
+namespace AntiCaptcha.Models
 {
     public class UserContext : DbContext
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AntiCapcha.Models
+namespace AntiCaptcha.Models
 {
     public interface IDialogService
     {

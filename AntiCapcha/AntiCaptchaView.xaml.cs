@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AntiCapcha
+namespace AntiCaptcha
 {
     /// <summary>
     /// Логика взаимодействия для AntiCapchaView.xaml
     /// </summary>
-    public partial class AntiCapchaView : UserControl
+    public partial class AntiCaptchaView : UserControl
     {
-        public AntiCapchaView()
+        public AntiCaptchaView()
         {
             InitializeComponent();
             //DataContext = new AntiCapcha.ViewModels.AntiCapchaViewModel();

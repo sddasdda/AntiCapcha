@@ -1,4 +1,4 @@
-﻿using AntiCapcha.Models;
+﻿using AntiCaptcha.Models;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
@@ -12,9 +12,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using AntiCapcha.Models;
+using AntiCaptcha.Models;
 
-namespace AntiCapcha.ViewModels
+namespace AntiCaptcha.ViewModels
 {
     
 
